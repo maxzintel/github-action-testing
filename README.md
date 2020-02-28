@@ -13,6 +13,11 @@
 * Slack Alerts
 * Basically any task we do in Bamboo
 
+## Best Practices:
+* Add versioning to releases of your action.
+  * After committing, tag the changes with `git tag -a -m "Some Release Message" v1`
+  * `git push --follow-tags`
+
 ========================================
 ## Example Action and its usage:
 ### Hello world docker action
