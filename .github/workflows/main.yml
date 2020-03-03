@@ -10,6 +10,7 @@ jobs:
       uses: s1dequest/github-action-testing@v1
       with:
         who-to-greet: 'Max?'
+        how-do-these-werk: 'NOT MAX'
     # Use the output from the `hello` step
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
